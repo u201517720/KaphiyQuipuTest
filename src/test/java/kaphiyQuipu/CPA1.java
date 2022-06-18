@@ -18,7 +18,7 @@ public class CPA1 {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("http://kaphiyquipu.azurewebsites.net/pages/login");
+		driver.get("https://kaphiyquipu.web.app/pages/login");
 	}
 	
 	 @Test
